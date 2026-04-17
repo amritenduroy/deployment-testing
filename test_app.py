@@ -17,7 +17,7 @@ def test_hello_status_code(client):
 def test_hello_response_body(client):
     response = client.get("/")
     data = response.get_json()
-    assert data["message"] == "Hello, World!"
+    assert data["message"] == "Hello, World Butu Mum!"
 
 
 def test_hello_content_type(client):
