@@ -14,6 +14,7 @@ spec:
       labels:
         app: hello-world-api
     spec:
+      automountServiceAccountToken: false
       containers:
         - name: hello-world-api
           image: hello-world-api:latest
